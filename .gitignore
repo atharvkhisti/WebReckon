@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+frontend/.env.local
+backend/.env
+
+# Build / artifacts
+frontend/.next
+frontend/.turbo
+frontend/out
+frontend/.vercel
+backend/results
+backend/src/results
+backend/playwright-report
+backend/test-results
+playwright-report
+test-results
+coverage
+dist
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
