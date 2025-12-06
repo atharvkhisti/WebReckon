@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "cors": "^2.8.5",
